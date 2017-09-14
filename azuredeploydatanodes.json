@@ -77,7 +77,7 @@
     "tshirtSizeMedium": {
       "vmSize": "Standard_D14_V2",
       "diskSize": 1023,
-      "vmTemplate": "[concat(variables('templateBaseUrl'),'add-worker-resources.json')]",
+      "vmTemplate": "[concat(variables('templateBaseUrl'),'add-worker-vmss-resources.json')]",
       "masterCount": 5,
       "workerCount": 10,
       "storage": {
@@ -89,7 +89,7 @@
     "tshirtSizeLarge": {
       "vmSize": "Standard_D14_V2",
       "diskSize": 1023,
-      "vmTemplate": "[concat(variables('templateBaseUrl'), 'add-worker-resources.json')]",
+      "vmTemplate": "[concat(variables('templateBaseUrl'), 'add-worker-vmss-resources.json')]",
       "masterCount": 5,
       "workerCount": 100,
       "storage": {
@@ -101,7 +101,7 @@
     "tshirtSizeXLarge": {
       "vmSize": "Standard_D14_V2",
       "diskSize": 1023,
-      "vmTemplate": "[concat(variables('templateBaseUrl'), 'add-worker-resources.json')]",
+      "vmTemplate": "[concat(variables('templateBaseUrl'), 'add-worker-vmss-resources.json')]",
       "masterCount": 8,
       "workerCount": 200,
       "storage": {
